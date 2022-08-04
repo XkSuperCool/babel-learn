@@ -1,0 +1,122 @@
+[
+  {
+    "type": "function",
+    "name": "sayHi",
+    "params": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "age",
+        "type": "number"
+      },
+      {
+        "name": "a",
+        "type": "boolean"
+      }
+    ],
+    "returnType": "string",
+    "docs": {
+      "description": "say 你好",
+      "tags": [
+        {
+          "title": "param",
+          "description": "名字",
+          "type": null,
+          "name": "name"
+        },
+        {
+          "title": "return",
+          "description": "sayHi",
+          "type": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "function",
+    "name": "add",
+    "params": [
+      {
+        "name": "a",
+        "type": "number"
+      },
+      {
+        "name": "b",
+        "type": "number"
+      }
+    ],
+    "returnType": "number",
+    "docs": "-"
+  },
+  {
+    "type": "function",
+    "name": "getUser",
+    "params": [],
+    "returnType": "IUser",
+    "docs": "-"
+  },
+  {
+    "type": "Class",
+    "name": "Guang",
+    "property": [
+      {
+        "name": "name",
+        "type": "string",
+        "doc": [
+          {
+            "description": "类测试",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "name": "age",
+        "type": {
+          "type": "AnyTypeAnnotation"
+        },
+        "doc": [
+          {
+            "description": "类测试",
+            "tags": []
+          }
+        ]
+      }
+    ],
+    "methods": [
+      {
+        "name": "sayHi",
+        "params": [],
+        "returnType": "string",
+        "doc": {
+          "description": "方法测试",
+          "tags": []
+        }
+      }
+    ],
+    "doc": {
+      "description": "类测试",
+      "tags": []
+    },
+    "constructor": {
+      "name": "constructor",
+      "params": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "returnType": {
+        "type": "AnyTypeAnnotation"
+      },
+      "doc": {
+        "description": "年龄",
+        "tags": []
+      }
+    }
+  }
+]
