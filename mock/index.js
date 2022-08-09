@@ -1,0 +1,1 @@
+import * as aa from './a'
