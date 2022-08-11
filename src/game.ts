@@ -114,7 +114,7 @@ type ChessBoardType<T extends string = string> = Record<
   `${T} ${T} ${T}`
 >
 
-type DefaultChessBoard = ChessBoardType<'[]'>
+type DefaultChessBoard = ChessBoardType<'⬜️'>
 
 // ChessX 获胜
 type ChessBoard2 = Down<1, 2, DefaultChessBoard, ChessX>
